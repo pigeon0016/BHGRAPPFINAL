@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BHGRAPPFINAL">
         <activity
+            android:name=".Detalle"
+            android:exported="true" />
+        <activity
+            android:name=".Perfil"
+            android:exported="true" />
+        <activity
+            android:name=".Consultas"
+            android:exported="true" />
+        <activity
+            android:name=".Registro"
+            android:exported="true" />
+        <activity
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.SPLASH">
@@ -21,11 +33,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
-
-
